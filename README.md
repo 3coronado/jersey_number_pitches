@@ -1,21 +1,22 @@
 # Jersey Number Pitches
 
-Which MLB pitcher has thrown the most pitches at the exact speed of their jersey number?
+Which MLB player has stats that most closely match their jersey number?
 
-For example: Tyler Holton of the Detroit Tigers wears **#87** — how many **87 mph** pitches has he thrown in his career?
+Two leaderboards:
+- **Pitchers** — most career pitches thrown at exactly their jersey number's mph
+- **Fielders** — closest average arm strength (mph) to their jersey number
 
-## How it works
+---
 
-1. Pulls full roster data (including jersey numbers) from the MLB Stats API for every team, 2008–present
-2. Downloads pitch-by-pitch data via [pybaseball](https://github.com/jldbc/pybaseball), covering the full PITCHf/x and Statcast era (2008–present)
-3. Rounds each pitch's `release_speed` to the nearest integer and compares it to the pitcher's jersey number that season
-4. Ranks pitchers by total career matching pitches
+## Pitcher Leaderboard
 
-Jersey numbers are matched per season, so a pitcher who changed numbers mid-career only gets credit for pitches thrown at the speed matching their number that year.
+Which pitcher has thrown the most pitches at the exact speed of their jersey number?
 
-## Leaderboard
+*Example: Tyler Holton of the Detroit Tigers wears **#87** — how many **87 mph** pitches has he thrown in his career?*
 
-*Last updated: June 25, 2026 — covers 2008 through 2026 (full pitch tracking era)*
+Covers the full pitch tracking era (**2008–present**, PITCHf/x + Statcast). Jersey numbers are matched per season, so a pitcher who changed numbers mid-career only gets credit for pitches thrown at the speed matching their number that year.
+
+*Last updated: June 25, 2026*
 
 | Rank | Pitcher | Jersey # | Matching Pitches |
 |------|---------|----------|-----------------|
@@ -70,7 +71,80 @@ Jersey numbers are matched per season, so a pitcher who changed numbers mid-care
 | 49 | Merandy Gonzalez | 77 | 34 |
 | 50 | Livan Hernandez | 61 | 33 |
 
-Full results in [matching_speed_leaderboard.csv](matching_speed_leaderboard.csv).
+Full results: [matching_speed_leaderboard.csv](matching_speed_leaderboard.csv)
+
+---
+
+## Arm Strength Leaderboard
+
+Which fielder's average arm strength is closest to their jersey number?
+
+Covers **2020–present** (the full Statcast arm strength tracking era). Uses Statcast's qualified arm strength metric, which filters to a player's strongest throws by position to exclude non-competitive lobs:
+
+- **1B** — average of top 1% of throws, minimum 100 throws
+- **2B / SS / 3B** — average of top 5% of throws, minimum 75 throws
+- **OF** — average of top 10% of throws, minimum 50 throws
+
+Each player's best-matching season is shown.
+
+*Last updated: June 25, 2026*
+
+| Rank | Fielder | Jersey # | Arm Strength | Diff | Position | Season |
+|------|---------|----------|-------------|------|----------|--------|
+| 1 | Jackson, Jeremiah | 82 | 82.1 | 0.1 | Second Baseman | 2026 |
+| 2 | Burdick, Peyton | 86 | 86.3 | 0.3 | Center Fielder | 2022 |
+| 3 | Marsee, Jakob | 87 | 88.1 | 1.1 | Center Fielder | 2025 |
+| 4 | Robert Jr., Luis | 88 | 86.8 | 1.2 | Center Fielder | 2022 |
+| 5 | Abreu, José | 79 | 77.7 | 1.3 | First Baseman | 2021 |
+| 6 | Ibáñez, Andy | 77 | 75.7 | 1.3 | Third Baseman | 2022 |
+| 7 | Rivas, Leo | 76 | 77.4 | 1.4 | Second Baseman | 2025 |
+| 8 | Kiermaier, Kevin | 93 | 94.6 | 1.6 | Center Fielder | 2024 |
+| 9 | Bride, Jonah | 77 | 79.3 | 2.3 | Second Baseman | 2022 |
+| 10 | Leblanc, Charles | 83 | 80.2 | 2.8 | Second Baseman | 2022 |
+| 11 | Peraza, Oswald | 91 | 88.2 | 2.8 | Third Baseman | 2023 |
+| 12 | Palacios, Jermaine | 87 | 84.0 | 3.0 | Shortstop | 2022 |
+| 13 | Florial, Estevan | 90 | 86.8 | 3.2 | Center Fielder | 2023 |
+| 14 | Cabrera, Oswaldo | 95 | 91.3 | 3.7 | Right Fielder | 2022 |
+| 15 | Torreyes, Ronald | 74 | 78.0 | 4.0 | Third Baseman | 2021 |
+| 16 | Harris, Brett | 77 | 81.2 | 4.2 | Third Baseman | 2024 |
+| 17 | Jiménez, Eloy | 74 | 78.4 | 4.4 | Designated Hitter | 2022 |
+| 18 | Sogard, Nick | 75 | 79.5 | 4.5 | Second Baseman | 2024 |
+| 19 | Parra, Gerardo | 88 | 92.7 | 4.7 | Left Fielder | 2021 |
+| 20 | Martin, Austin | 82 | 87.0 | 5.0 | Center Fielder | 2024 |
+| 21 | Garcia, Dérmis | 76 | 71.0 | 5.0 | First Baseman | 2022 |
+| 22 | Freeland, Alex | 76 | 81.1 | 5.1 | Second Baseman | 2026 |
+| 23 | Verdugo, Alex | 99 | 93.8 | 5.2 | Right Fielder | 2020 |
+| 24 | Vivas, Jorbit | 84 | 78.5 | 5.5 | Third Baseman | 2026 |
+| 25 | Stowers, Kyle | 83 | 88.8 | 5.8 | Left Fielder | 2022 |
+| 26 | Judge, Aaron | 99 | 92.4 | 6.6 | Center Fielder | 2022 |
+| 27 | Caballero, José | 76 | 82.6 | 6.6 | Second Baseman | 2023 |
+| 28 | Valera, Breyvic | 74 | 80.7 | 6.7 | Third Baseman | 2021 |
+| 29 | Valaika, Pat | 74 | 81.0 | 7.0 | Shortstop | 2020 |
+| 30 | Gutiérrez, Kelvin | 82 | 89.2 | 7.2 | Third Baseman | 2021 |
+| 31 | Anderson, Tim | 77 | 84.4 | 7.4 | Second Baseman | 2025 |
+| 32 | Rojas, Miguel | 72 | 79.4 | 7.4 | Second Baseman | 2025 |
+| 33 | Pereira, Everson | 80 | 87.9 | 7.9 | Left Fielder | 2023 |
+| 34 | Abrams, CJ | 77 | 85.3 | 8.3 | Shortstop | 2022 |
+| 35 | Chisholm Jr., Jazz | 70 | 80.4 | 10.4 | Second Baseman | 2020 |
+| 36 | Miranda, Jose | 64 | 74.7 | 10.7 | First Baseman | 2022 |
+| 37 | Velazquez, Andrew | 71 | 83.3 | 12.3 | Shortstop | 2021 |
+| 38 | Ramírez, Harold | 87 | 74.6 | 12.4 | Designated Hitter | 2022 |
+| 39 | Villar, David | 70 | 82.8 | 12.8 | Third Baseman | 2022 |
+| 40 | De La Cruz, Bryan | 77 | 90.5 | 13.5 | Center Fielder | 2021 |
+| 41 | Frazier, Clint | 77 | 90.5 | 13.5 | Right Fielder | 2020 |
+| 42 | Aranda, Jonathan | 62 | 76.0 | 14.0 | First Baseman | 2025 |
+| 43 | Sánchez, Jesús | 76 | 90.2 | 14.2 | Right Fielder | 2021 |
+| 44 | Hamilton, David | 70 | 84.5 | 14.5 | Shortstop | 2024 |
+| 45 | Alvarez Jr., Nacho | 67 | 81.6 | 14.6 | Third Baseman | 2025 |
+| 46 | Bell, Josh | 55 | 69.7 | 14.7 | Designated Hitter | 2023 |
+| 47 | Hernández, Yonny | 65 | 79.9 | 14.9 | Third Baseman | 2021 |
+| 48 | O'Hearn, Ryan | 66 | 81.0 | 15.0 | Designated Hitter | 2021 |
+| 49 | Noda, Ryan | 49 | 66.1 | 17.1 | First Baseman | 2024 |
+| 50 | Astudillo, Willians | 64 | 81.6 | 17.6 | Third Baseman | 2021 |
+
+Full results: [arm_strength_leaderboard.csv](arm_strength_leaderboard.csv)
+
+---
 
 ## Usage
 
