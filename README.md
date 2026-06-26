@@ -6,67 +6,69 @@ For example: Tyler Holton of the Detroit Tigers wears **#87** — how many **87 
 
 ## How it works
 
-1. Pulls full roster data (including jersey numbers) from the MLB Stats API for every team, 2015–present
-2. Downloads pitch-by-pitch Statcast data via [pybaseball](https://github.com/jldbc/pybaseball)
+1. Pulls full roster data (including jersey numbers) from the MLB Stats API for every team, 2008–present
+2. Downloads pitch-by-pitch data via [pybaseball](https://github.com/jldbc/pybaseball), covering the full PITCHf/x and Statcast era (2008–present)
 3. Rounds each pitch's `release_speed` to the nearest integer and compares it to the pitcher's jersey number that season
 4. Ranks pitchers by total career matching pitches
 
+Jersey numbers are matched per season, so a pitcher who changed numbers mid-career only gets credit for pitches thrown at the speed matching their number that year.
+
 ## Leaderboard
 
-*Last updated: June 25, 2026 — covers 2015 through 2025 Statcast data*
+*Last updated: June 25, 2026 — covers 2008 through 2026 (full pitch tracking era)*
 
 | Rank | Pitcher | Jersey # | Matching Pitches |
 |------|---------|----------|-----------------|
 | 1 | Dylan Cease | 84 | 755 |
-| 2 | Luis Cessa | 85 | 554 |
-| 3 | Dustin May | 85 | 404 |
-| 4 | Phil Maton | 88 | 383 |
-| 5 | Tanner Houck | 89 | 315 |
-| 6 | Yoendrys Gómez | 94 | 312 |
-| 7 | Tyler Rogers | 71 | 289 |
-| 8 | Eduard Bazardo | 83 | 276 |
-| 9 | Tyler Holton | 87 | 227 |
-| 10 | Spencer Strider | 99 | 205 |
-| 11 | Tommy Hunter | 96 | 181 |
-| 12 | Clarke Schmidt | 86 | 171 |
-| 13 | Yimi García | 93 | 170 |
-| 14 | Valente Bellozo | 83 | 160 |
-| 15 | Danny Young | 81 | 139 |
-| 16 | Luis Garcia | 77 | 137 |
-| 17 | JP Sears | 92 | 136 |
-| 18 | Dalier Hinojosa | 94 | 125 |
-| 19 | Lake Bachar | 84 | 124 |
-| 20 | Chris Flexen | 77 | 119 |
-| 21 | Génesis Cabrera | 92 | 107 |
-| 22 | Michael Grove | 78 | 102 |
-| 23 | Ryan Thompson | 81 | 99 |
-| 24 | Nabil Crismatt | 74 | 82 |
-| 25 | Grant Dayton | 75 | 81 |
-| 26 | Spenser Watkins | 80 | 78 |
-| 27 | Joe Kelly | 99 | 76 |
-| 28 | JT Chargois | 84 | 75 |
-| 29 | Miguel Yajure | 89 | 72 |
-| 30 | Jack Dreyer | 86 | 63 |
-| 31 | Trevor Rogers | 95 | 62 |
-| 32 | Matt Gage | 93 | 61 |
-| 33 | Grant Hartwig | 93 | 61 |
-| 34 | Bryan Hoeing | 93 | 53 |
-| 35 | Joe Jacques | 78 | 50 |
-| 36 | Parker Messick | 77 | 49 |
-| 37 | Edwin Uceta | 92 | 49 |
-| 38 | Cooper Criswell | 88 | 45 |
-| 39 | Jonathan Pintaro | 91 | 42 |
-| 40 | Deivi García | 83 | 39 |
-| 41 | Sam Long | 73 | 39 |
-| 42 | John Curtiss | 84 | 38 |
-| 43 | A.J. Griffin | 64 | 37 |
-| 44 | Austin Kitchen | 91 | 36 |
-| 45 | Merandy Gonzalez | 77 | 34 |
-| 46 | Brennan Bernardino | 83 | 32 |
-| 47 | Ben Rowen | 71 | 32 |
-| 48 | Emmet Sheehan | 80 | 31 |
-| 49 | Bryan Hudson | 93 | 29 |
-| 50 | Andre Jackson | 94 | 27 |
+| 2 | Barry Zito | 75 | 727 |
+| 3 | Luis Cessa | 85 | 554 |
+| 4 | Alfredo Aceves | 91 | 464 |
+| 5 | Dustin May | 85 | 404 |
+| 6 | Phil Maton | 88 | 383 |
+| 7 | Tanner Houck | 89 | 315 |
+| 8 | Yoendrys Gómez | 94 | 312 |
+| 9 | Tyler Rogers | 71 | 289 |
+| 10 | Eduard Bazardo | 83 | 276 |
+| 11 | Tyler Holton | 87 | 227 |
+| 12 | Spencer Strider | 99 | 205 |
+| 13 | Tommy Hunter | 96 | 181 |
+| 14 | Clarke Schmidt | 86 | 171 |
+| 15 | Yimi García | 93 | 170 |
+| 16 | Valente Bellozo | 83 | 160 |
+| 17 | Danny Young | 81 | 139 |
+| 18 | Luis Garcia | 77 | 137 |
+| 19 | JP Sears | 92 | 136 |
+| 20 | Dalier Hinojosa | 94 | 125 |
+| 21 | Lake Bachar | 84 | 124 |
+| 22 | Chris Flexen | 77 | 119 |
+| 23 | Génesis Cabrera | 92 | 107 |
+| 24 | Michael Grove | 78 | 102 |
+| 25 | Ryan Thompson | 81 | 99 |
+| 26 | Nabil Crismatt | 74 | 82 |
+| 27 | D.J. Carrasco | 77 | 81 |
+| 28 | Grant Dayton | 75 | 81 |
+| 29 | Spenser Watkins | 80 | 78 |
+| 30 | Joe Kelly | 99 | 76 |
+| 31 | JT Chargois | 84 | 75 |
+| 32 | Miguel Yajure | 89 | 72 |
+| 33 | Jack Dreyer | 86 | 63 |
+| 34 | Trevor Rogers | 95 | 62 |
+| 35 | Matt Gage | 93 | 61 |
+| 36 | Grant Hartwig | 93 | 61 |
+| 37 | Bryan Hoeing | 93 | 53 |
+| 38 | Joe Jacques | 78 | 50 |
+| 39 | Edwin Uceta | 92 | 49 |
+| 40 | Parker Messick | 77 | 49 |
+| 41 | Cooper Criswell | 88 | 45 |
+| 42 | Josh Outman | 88 | 43 |
+| 43 | Jonathan Pintaro | 91 | 42 |
+| 44 | Deivi García | 83 | 39 |
+| 45 | Sam Long | 73 | 39 |
+| 46 | John Curtiss | 84 | 38 |
+| 47 | A.J. Griffin | 64 | 37 |
+| 48 | Austin Kitchen | 91 | 36 |
+| 49 | Merandy Gonzalez | 77 | 34 |
+| 50 | Livan Hernandez | 61 | 33 |
 
 Full results in [matching_speed_leaderboard.csv](matching_speed_leaderboard.csv).
 
@@ -77,4 +79,4 @@ pip install pybaseball tqdm pandas pyarrow requests
 python jersey_number_pitches.py
 ```
 
-Statcast downloads are cached to `statcast_data/` so subsequent runs skip re-downloading.
+Statcast/PITCHf/x downloads are cached to `statcast_data/` so subsequent runs skip re-downloading.

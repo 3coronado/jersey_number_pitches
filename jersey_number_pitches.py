@@ -1,5 +1,6 @@
-from pybaseball import statcast
+from pybaseball import statcast, cache
 import pandas as pd
+cache.enable()
 import requests
 from tqdm import tqdm
 from datetime import datetime
@@ -9,7 +10,7 @@ import os
 # Settings
 # -----------------------------
 
-START_YEAR = 2015
+START_YEAR = 2008
 END_YEAR = datetime.now().year
 
 OUTPUT_FOLDER = "statcast_data"
