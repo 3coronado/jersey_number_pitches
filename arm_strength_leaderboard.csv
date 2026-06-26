@@ -1,0 +1,783 @@
+player_id,fielder_name,jersey_number,arm_overall,diff,total_throws,primary_position_name,season
+669236,"Jackson, Jeremiah",82,82.1,0.09999999999999432,239,Second Baseman,2026
+680814,"Burdick, Peyton",86,86.3,0.29999999999999716,93,Center Fielder,2022
+805300,"Marsee, Jakob",87,88.1,1.0999999999999943,182,Center Fielder,2025
+673357,"Robert Jr., Luis",88,86.8,1.2000000000000028,267,Center Fielder,2022
+547989,"Abreu, José",79,77.7,1.2999999999999972,388,First Baseman,2021
+628451,"Ibáñez, Andy",77,75.7,1.2999999999999972,132,Third Baseman,2022
+660844,"Rivas, Leo",76,77.4,1.4000000000000057,116,Second Baseman,2025
+595281,"Kiermaier, Kevin",93,94.6,1.5999999999999943,288,Center Fielder,2024
+681146,"Bride, Jonah",77,79.3,2.299999999999997,204,Second Baseman,2022
+641779,"Leblanc, Charles",83,80.2,2.799999999999997,162,Second Baseman,2022
+672724,"Peraza, Oswald",91,88.2,2.799999999999997,203,Third Baseman,2023
+650339,"Palacios, Jermaine",87,84.0,3.0,103,Shortstop,2022
+664314,"Florial, Estevan",90,86.8,3.200000000000003,54,Center Fielder,2023
+665828,"Cabrera, Oswaldo",95,91.3,3.700000000000003,138,Right Fielder,2022
+591720,"Torreyes, Ronald",74,78.0,4.0,439,Third Baseman,2021
+695391,"Harris, Brett",77,81.2,4.200000000000003,85,Third Baseman,2024
+650391,"Jiménez, Eloy",74,78.4,4.400000000000006,66,Designated Hitter,2022
+686765,"Sogard, Nick",75,79.5,4.5,113,Second Baseman,2024
+467827,"Parra, Gerardo",88,92.7,4.700000000000003,57,Left Fielder,2021
+668885,"Martin, Austin",82,87.0,5.0,242,Center Fielder,2024
+660650,"Garcia, Dérmis",76,71.0,5.0,134,First Baseman,2022
+690976,"Freeland, Alex",76,81.1,5.099999999999994,248,Second Baseman,2026
+657077,"Verdugo, Alex",99,93.8,5.200000000000003,153,Right Fielder,2020
+678391,"Vivas, Jorbit",84,78.5,5.5,108,Third Baseman,2026
+669065,"Stowers, Kyle",83,88.8,5.799999999999997,73,Left Fielder,2022
+592450,"Judge, Aaron",99,92.4,6.599999999999994,336,Center Fielder,2022
+676609,"Caballero, José",76,82.6,6.599999999999994,378,Second Baseman,2023
+591971,"Valera, Breyvic",74,80.7,6.700000000000003,77,Third Baseman,2021
+642162,"Valaika, Pat",74,81.0,7.0,167,Shortstop,2020
+642721,"Gutiérrez, Kelvin",82,89.2,7.200000000000003,254,Third Baseman,2021
+641313,"Anderson, Tim",77,84.4,7.400000000000006,150,Second Baseman,2025
+500743,"Rojas, Miguel",72,79.4,7.400000000000006,347,Second Baseman,2025
+677592,"Pereira, Everson",80,87.9,7.900000000000006,88,Left Fielder,2023
+682928,"Abrams, CJ",77,85.3,8.299999999999997,431,Shortstop,2022
+665862,"Chisholm Jr., Jazz",70,80.4,10.400000000000006,106,Second Baseman,2020
+669304,"Miranda, Jose",64,74.7,10.700000000000003,450,First Baseman,2022
+623205,"Velazquez, Andrew",71,83.3,12.299999999999997,110,Shortstop,2021
+623912,"Ramírez, Harold",87,74.6,12.400000000000006,145,Designated Hitter,2022
+681584,"Villar, David",70,82.8,12.799999999999997,156,Third Baseman,2022
+650559,"De La Cruz, Bryan",77,90.5,13.5,174,Center Fielder,2021
+640449,"Frazier, Clint",77,90.5,13.5,79,Right Fielder,2020
+666018,"Aranda, Jonathan",62,76.0,14.0,293,First Baseman,2025
+660821,"Sánchez, Jesús",76,90.2,14.200000000000003,180,Right Fielder,2021
+666152,"Hamilton, David",70,84.5,14.5,391,Shortstop,2024
+805373,"Alvarez Jr., Nacho",67,81.6,14.599999999999994,137,Third Baseman,2025
+605137,"Bell, Josh",55,69.7,14.700000000000003,204,Designated Hitter,2023
+660634,"Hernández, Yonny",65,79.9,14.900000000000006,176,Third Baseman,2021
+656811,"O'Hearn, Ryan",66,81.0,15.0,122,Designated Hitter,2021
+676116,"Noda, Ryan",49,66.1,17.099999999999994,114,First Baseman,2024
+553902,"Astudillo, Willians",64,81.6,17.599999999999994,194,Third Baseman,2021
+624641,"Sosa, Edmundo",63,81.0,18.0,478,Shortstop,2021
+572228,"Voit, Luke",59,77.1,18.099999999999994,105,First Baseman,2021
+680700,"Palacios, Richie",67,85.1,18.099999999999994,80,Left Fielder,2023
+572233,"Walker, Christian",53,71.4,18.400000000000006,545,First Baseman,2024
+660829,"Park, Hoy",98,79.4,18.599999999999994,138,Second Baseman,2021
+669352,"Thompson, Bubba",65,84.1,19.099999999999994,140,Left Fielder,2022
+668843,"Capel, Conner",71,90.1,19.099999999999994,63,Right Fielder,2022
+660731,"Tejeda, Anderson",71,90.2,19.200000000000003,114,Shortstop,2020
+502671,"Goldschmidt, Paul",48,67.3,19.299999999999997,181,First Baseman,2026
+677954,"Groshans, Jordan",65,84.8,19.799999999999997,76,Third Baseman,2022
+542364,"Ortega, Rafael",66,85.9,19.900000000000006,179,Center Fielder,2022
+677649,"Duran, Ezequiel",70,90.2,20.200000000000003,198,Third Baseman,2022
+669261,"Suwinski, Jack",65,85.5,20.5,431,Center Fielder,2023
+671277,"García Jr., Luis",62,82.8,20.799999999999997,101,Second Baseman,2020
+593643,"Alberto, Hanser",57,78.2,21.200000000000003,236,Second Baseman,2020
+689172,"Wisely, Brett",60,81.5,21.5,102,Second Baseman,2025
+669743,"Call, Alex",65,86.7,21.700000000000003,95,Left Fielder,2022
+665926,"Giménez, Andrés",60,82.0,22.0,128,Shortstop,2020
+668709,"Bleday, JJ",67,89.1,22.099999999999994,172,Center Fielder,2022
+672640,"Lopez, Otto",61,83.1,22.099999999999994,486,Second Baseman,2024
+681715,"Hernández, Heriberto",64,86.1,22.099999999999994,123,Designated Hitter,2025
+700250,"Rice, Ben",93,70.5,22.5,115,First Baseman,2024
+668731,"Baddoo, Akil",60,83.0,23.0,370,Center Fielder,2021
+595909,"Cave, Jake",60,83.3,23.299999999999997,146,Center Fielder,2021
+692216,"Kayfus, CJ",63,86.5,23.5,116,Right Fielder,2025
+676632,"Madris, Bligh",66,89.5,23.5,99,Right Fielder,2022
+665482,"Celestino, Gilberto",67,90.7,23.700000000000003,72,Center Fielder,2021
+694362,"Dunn, Blake",59,82.8,23.799999999999997,84,Center Fielder,2026
+672279,"Siani, Michael",63,86.9,23.900000000000006,338,Center Fielder,2024
+663630,"McKenna, Ryan",65,89.0,24.0,163,Left Fielder,2021
+660636,"Castillo, Diego",64,88.3,24.299999999999997,337,Shortstop,2022
+677595,"Mauricio, Ronny",60,84.3,24.299999999999997,125,Second Baseman,2023
+664731,"Higgins, P.J.",48,72.3,24.299999999999997,153,,2022
+519203,"Rizzo, Anthony",48,73.0,25.0,476,First Baseman,2023
+665750,"Taveras, Leody",65,90.5,25.5,111,Center Fielder,2020
+670097,"Short, Zack",59,84.6,25.599999999999994,279,Shortstop,2021
+668227,"Arozarena, Randy",56,81.7,25.700000000000003,460,Left Fielder,2025
+542583,"Aguilar, Jesús",99,73.1,25.900000000000006,232,First Baseman,2022
+571657,"Farmer, Kyle",52,78.2,26.200000000000003,84,Shortstop,2020
+666176,"Adell, Jo",59,85.3,26.299999999999997,99,Right Fielder,2020
+666464,"Encarnacion, Jerar",64,90.4,26.400000000000006,61,Left Fielder,2022
+641343,"Bauers, Jake",61,87.9,26.900000000000006,186,Right Fielder,2023
+687462,"Horwitz, Spencer",48,74.9,26.900000000000006,291,Second Baseman,2024
+665839,"Valdez, Enmanuel",47,74.6,27.599999999999994,242,Second Baseman,2024
+678894,"Peguero, Liover",60,87.7,27.700000000000003,308,Shortstop,2023
+641856,"McKinney, Billy",57,84.8,27.799999999999997,114,Left Fielder,2023
+621433,"Phillips, Brett",66,93.9,27.900000000000006,198,Center Fielder,2022
+666149,"Fitzgerald, Tyler",49,76.9,27.900000000000006,365,Second Baseman,2025
+687551,"Gilbert, Drew",61,89.4,28.400000000000006,115,Right Fielder,2025
+600301,"Motter, Taylor",55,83.7,28.700000000000003,91,Second Baseman,2023
+641829,"Martin, Jason",50,78.7,28.700000000000003,113,Left Fielder,2021
+701678,"Lee, Hao-Yu ",50,78.8,28.799999999999997,165,Second Baseman,2026
+672820,"Sosa, Lenyn",50,79.9,29.900000000000006,606,Second Baseman,2025
+641505,"Davis, Jonathan",49,79.1,30.099999999999994,56,Center Fielder,2023
+608841,"Meneses, Joey",45,75.5,30.5,260,First Baseman,2024
+685133,"Meckler, Wade",53,83.5,30.5,63,Left Fielder,2026
+677870,"Jiménez, Leo",49,79.6,30.599999999999994,205,Shortstop,2024
+656413,"Fairchild, Stuart",57,87.6,30.599999999999994,73,Left Fielder,2022
+666397,"Julien, Edouard",47,77.7,30.700000000000003,142,Second Baseman,2025
+527038,"Flores, Wilmer",41,71.8,30.799999999999997,171,First Baseman,2024
+605141,"Betts, Mookie",50,81.4,31.400000000000006,612,Shortstop,2025
+690987,"Hassell III, Robert",57,88.4,31.400000000000006,175,Center Fielder,2025
+624413,"Alonso, Pete",42,73.5,31.5,848,First Baseman,2025
+683766,"Koss, Christian",50,82.0,32.0,243,Second Baseman,2025
+593528,"Bonifacio, Jorge",57,89.4,32.400000000000006,80,Left Fielder,2020
+594777,"Calhoun, Kole",56,88.5,32.5,160,Right Fielder,2020
+456781,"Solano, Donovan",39,71.7,32.7,187,First Baseman,2025
+607461,"Beaty, Matt",45,78.0,33.0,124,Left Fielder,2021
+600869,"Candelario, Jeimer",46,79.1,33.099999999999994,498,Third Baseman,2021
+695734,"Lile, Daylen",51,84.6,33.599999999999994,212,Right Fielder,2025
+691781,"House, Brady",55,88.7,33.7,185,Third Baseman,2025
+660707,"Montero, Elehuris",44,78.3,34.3,214,First Baseman,2023
+671083,"Kennedy, Buddy",45,79.3,34.3,122,Second Baseman,2022
+676475,"Burleson, Alec",41,75.6,34.599999999999994,288,First Baseman,2026
+650331,"Díaz, Lewin",34,68.6,34.599999999999994,248,First Baseman,2022
+642133,"Tellez, Rowdy",44,78.6,34.599999999999994,346,First Baseman,2024
+570560,"Sánchez, Yolmer",47,81.7,34.7,78,Second Baseman,2022
+656537,"Hill, Derek",54,88.8,34.8,127,Center Fielder,2021
+650489,"Castro, Willi",49,83.9,34.900000000000006,133,Shortstop,2020
+641820,"Mancini, Trey",36,71.1,35.099999999999994,214,First Baseman,2023
+664058,"Fletcher, David",42,78.1,36.099999999999994,311,Second Baseman,2022
+680118,"Blanco, Dairon",44,80.1,36.099999999999994,108,Left Fielder,2024
+670042,"Raley, Luke",55,91.3,36.3,282,Right Fielder,2023
+676628,"Contreras, Mark",55,91.4,36.400000000000006,57,Center Fielder,2022
+667472,"Myers, Dane",54,90.6,36.599999999999994,68,Center Fielder,2023
+641943,"Palacios, Joshua",54,90.8,36.8,166,Right Fielder,2023
+642731,"Estrada, Thairo",39,75.9,36.900000000000006,511,Second Baseman,2024
+666969,"García, Adolis",53,89.9,36.900000000000006,357,Right Fielder,2024
+665052,"Conine, Griffin",56,93.1,37.099999999999994,68,Right Fielder,2024
+656252,"Bradley, Bobby",44,81.3,37.3,327,First Baseman,2021
+672761,"Pérez, Wenceel",46,83.5,37.5,127,Right Fielder,2026
+670712,"Brosseau, Mike",43,80.5,37.5,169,Second Baseman,2021
+641513,"Demeritte, Travis",48,85.8,37.8,86,Right Fielder,2022
+467793,"Santana, Carlos",41,79.0,38.0,767,First Baseman,2023
+663330,"Jones, Jahmai",37,75.2,38.2,77,Second Baseman,2021
+642727,"Alcántara, Sergio",51,89.4,38.400000000000006,311,Shortstop,2021
+670541,"Alvarez, Yordan",44,82.5,38.5,139,Designated Hitter,2024
+669701,"Smith, Josh",47,85.6,38.599999999999994,219,Third Baseman,2023
+808982,"Lee, Jung Hoo",51,89.7,38.7,191,Right Fielder,2026
+691594,"Sanoja, Javier",46,84.8,38.8,307,Third Baseman,2025
+672569,"Campero, Gustavo",51,89.8,38.8,52,Right Fielder,2025
+663845,"Rivas III, Alfonso",36,74.9,38.900000000000006,311,First Baseman,2022
+663897,"Williams, Luke",46,84.9,38.900000000000006,166,Left Fielder,2022
+664056,"Bader, Harrison",48,87.1,39.099999999999994,349,Center Fielder,2021
+687529,"McCray, Grant",58,97.1,39.099999999999994,106,Center Fielder,2024
+683953,"Bazzana, Travis",37,76.2,39.2,202,Second Baseman,2026
+681962,"Capra, Vinny",41,80.2,39.2,118,Third Baseman,2025
+683021,"Stefanic, Michael",38,77.7,39.7,126,Second Baseman,2024
+671213,"Casas, Triston",36,75.7,39.7,162,First Baseman,2025
+670768,"González, Luis",51,90.9,39.900000000000006,275,Right Fielder,2022
+663993,"Lowe, Nathaniel",37,77.0,40.0,553,First Baseman,2025
+683227,"Freeman, Cody",39,79.1,40.099999999999994,92,Second Baseman,2025
+624414,"Arroyo, Christian",39,79.1,40.099999999999994,281,Second Baseman,2023
+683737,"Busch, Michael",29,69.4,40.400000000000006,594,First Baseman,2024
+693304,"Gonzales, Nick",39,79.5,40.5,419,Second Baseman,2024
+691718,"Crow-Armstrong, Pete",52,93.0,41.0,414,Center Fielder,2024
+676914,"Schneider, Davis",36,77.0,41.0,108,Second Baseman,2023
+663527,"Nevin, Tyler",41,82.2,41.2,149,Third Baseman,2022
+596129,"Vogelbach, Daniel",20,61.2,41.2,181,First Baseman,2021
+665019,"Clemens, Kody",23,64.4,41.400000000000006,141,First Baseman,2023
+691785,"Mayer, Marcelo",39,80.8,41.8,112,Third Baseman,2025
+572204,"Thompson, Trayce",43,84.9,41.900000000000006,137,Center Fielder,2023
+572138,"Singleton, Jon",28,70.0,42.0,260,First Baseman,2024
+677800,"Abreu, Wilyer",52,94.2,42.2,264,Right Fielder,2025
+664774,"Wade Jr., LaMonte",31,73.3,42.3,513,First Baseman,2023
+543333,"Hosmer, Eric",35,77.7,42.7,561,First Baseman,2022
+607043,"Nimmo, Brandon",42,85.1,43.099999999999994,238,Center Fielder,2021
+669374,"Hiura, Keston",18,61.4,43.4,224,First Baseman,2022
+690993,"Keith, Colt",33,76.5,43.5,633,Second Baseman,2024
+575929,"Contreras, Willson",40,83.7,43.7,349,First Baseman,2026
+656514,"Haseley, Adam",40,83.8,43.8,67,Center Fielder,2020
+643565,"Tauchman, Mike",39,82.9,43.900000000000006,78,Left Fielder,2020
+681546,"Outman, James",43,87.2,44.2,68,Center Fielder,2026
+670223,"Mervis, Matt",36,80.3,44.3,127,First Baseman,2025
+676572,"Wagaman, Eric",33,77.4,44.400000000000006,479,First Baseman,2025
+641933,"O'Neill, Tyler",41,85.5,44.5,117,Left Fielder,2020
+621566,"Olson, Matt",28,72.8,44.8,829,First Baseman,2022
+543939,"Wong, Kolten",25,69.9,44.900000000000006,298,Second Baseman,2023
+643265,"Cooper, Garrett",26,71.0,45.0,348,First Baseman,2023
+664670,"Lopez, Alejo",35,80.1,45.099999999999994,108,Second Baseman,2022
+678877,"Noel, Jhonkensy",43,88.3,45.3,130,Right Fielder,2024
+573131,"Ruf, Darin",33,78.4,45.400000000000006,195,First Baseman,2021
+655316,"Monasterio, Andruw",32,77.7,45.7,107,Shortstop,2026
+666915,"Dalbec, Bobby",29,74.8,45.8,588,First Baseman,2022
+622569,"Reyes, Pablo",33,78.8,45.8,82,Third Baseman,2021
+642086,"Smith, Dominic",22,67.9,45.900000000000006,637,First Baseman,2023
+656716,"McKinstry, Zach",39,85.1,46.099999999999994,223,Second Baseman,2026
+605612,"Castro, Harold",30,76.2,46.2,474,First Baseman,2022
+546318,"Herrera, Odúbel",37,83.3,46.3,331,Center Fielder,2021
+642201,"White, Eli",41,87.3,46.3,176,Left Fielder,2021
+663662,"Cameron, Daz",41,87.4,46.400000000000006,87,Right Fielder,2021
+676480,"Barrero, José",38,84.5,46.5,98,Shortstop,2020
+682988,"Locklear, Tyler",28,74.5,46.5,192,First Baseman,2025
+670032,"Lopez, Nicky",33,79.5,46.5,123,Second Baseman,2026
+657757,"Sheets, Gavin",30,76.6,46.599999999999994,187,First Baseman,2026
+680776,"Duran, Jarren",40,86.7,46.7,68,Center Fielder,2021
+514888,"Altuve, Jose",27,73.7,46.7,258,Second Baseman,2026
+683770,"Robertson, Will",37,83.8,46.8,56,Left Fielder,2025
+613564,"Vosler, Jason",32,78.8,46.8,147,Third Baseman,2022
+682829,"De La Cruz, Elly",44,90.9,46.900000000000006,309,Shortstop,2026
+677594,"Rodríguez, Julio",44,91.0,47.0,364,Center Fielder,2024
+609280,"Andujar, Miguel",41,88.2,47.2,116,Left Fielder,2021
+596847,"Choi, Ji Man",26,73.3,47.3,311,First Baseman,2022
+643524,"Schwindel, Frank",18,65.4,47.400000000000006,177,First Baseman,2022
+678554,"Mead, Curtis",29,76.6,47.599999999999994,195,Third Baseman,2025
+680757,"Kwan, Steven",38,85.6,47.599999999999994,417,Left Fielder,2022
+666906,"Alu, Jake",39,86.7,47.7,146,Left Fielder,2023
+664983,"McCarthy, Jake",31,78.7,47.7,225,Center Fielder,2026
+678545,"Basabe, Osleivis",37,85.2,48.2,102,Shortstop,2023
+668472,"Pratto, Nick",32,80.2,48.2,223,First Baseman,2022
+543401,"Kipnis, Jason",27,75.4,48.400000000000006,124,Second Baseman,2020
+694671,"Langford, Wyatt",36,84.6,48.599999999999994,116,Left Fielder,2026
+681624,"Pages, Andy",44,92.6,48.599999999999994,353,Center Fielder,2024
+669394,"Burger, Jake",36,84.7,48.7,366,Third Baseman,2024
+686894,"Wiemer, Joey",41,89.8,48.8,62,Right Fielder,2025
+543063,"Crawford, Brandon",35,83.8,48.8,277,Shortstop,2020
+605353,"Machín, Vimael",31,79.9,48.900000000000006,257,Third Baseman,2022
+664034,"France, Ty",23,71.9,48.900000000000006,874,First Baseman,2023
+678882,"Rafaela, Ceddanne",43,92.1,49.099999999999994,649,Center Fielder,2024
+606192,"Hernández, Teoscar",37,86.2,49.2,288,Right Fielder,2025
+640458,"Mercado, Óscar",35,84.2,49.2,207,Left Fielder,2021
+518934,"LeMahieu, DJ",26,75.3,49.3,157,Second Baseman,2025
+676391,"Clement, Ernie",28,77.3,49.3,185,Second Baseman,2021
+680718,"Barger, Addison",47,96.3,49.3,171,Third Baseman,2024
+545350,"Marisnick, Jake",41,90.5,49.5,72,Center Fielder,2023
+621011,"Schrock, Max",32,81.6,49.599999999999994,88,Left Fielder,2021
+642708,"Rosario, Amed",38,87.6,49.599999999999994,210,Right Fielder,2024
+683734,"Vaughn, Andrew",25,74.8,49.8,387,First Baseman,2024
+660294,"Tsutsugo, Yoshi",25,74.8,49.8,145,First Baseman,2022
+682985,"Greene, Riley",31,81.0,50.0,170,Left Fielder,2026
+692225,"Campbell, Kristian",28,78.0,50.0,289,Second Baseman,2025
+608336,"Gallo, Joey",24,74.0,50.0,295,First Baseman,2024
+650402,"Torres, Gleyber",25,75.2,50.2,652,Second Baseman,2024
+608701,"Refsnyder, Rob",38,88.3,50.3,118,Center Fielder,2021
+628338,"Heredia, Guillermo",38,88.4,50.400000000000006,82,Right Fielder,2022
+679529,"Torkelson, Spencer",20,70.4,50.400000000000006,406,First Baseman,2026
+624428,"Frazier, Adam",26,76.5,50.5,204,Second Baseman,2020
+606157,"Aquino, Aristides",44,94.5,50.5,125,Left Fielder,2021
+670276,"Stevenson, Cal",37,87.6,50.599999999999994,51,Center Fielder,2022
+602104,"Urías, Ramón",29,79.6,50.599999999999994,283,Third Baseman,2025
+665489,"Guerrero Jr., Vladimir",27,77.6,50.599999999999994,345,First Baseman,2026
+598265,"Bradley Jr., Jackie",41,91.7,50.7,304,Center Fielder,2021
+700242,"Sweeney, Trey",27,78.1,51.099999999999994,445,Shortstop,2025
+572816,"Dickerson, Corey",23,74.1,51.099999999999994,129,Left Fielder,2020
+475582,"Zimmerman, Ryan",11,62.1,51.1,152,First Baseman,2021
+664770,"Lukes, Nathan",38,89.2,51.2,280,Right Fielder,2025
+628450,"Hernandez, Yadiel",29,80.3,51.3,168,Left Fielder,2021
+641684,"Hermosillo, Michael",37,88.5,51.5,60,Center Fielder,2022
+501659,"Almonte, Abraham",34,85.6,51.599999999999994,106,Left Fielder,2021
+642423,"Sierra, Magneuris",37,88.7,51.7,102,Center Fielder,2022
+694497,"Carter, Evan",32,83.8,51.8,99,Left Fielder,2024
+664238,"Moore, Dylan",25,76.8,51.8,490,Shortstop,2024
+656775,"Mullins, Cedric",31,82.9,51.900000000000006,115,Center Fielder,2020
+641355,"Bellinger, Cody",35,86.9,51.900000000000006,362,Center Fielder,2022
+664761,"Bohm, Alec",28,79.9,51.900000000000006,202,Third Baseman,2026
+668952,"Kreidler, Ryan",32,83.9,51.900000000000006,102,Shortstop,2024
+702358,"Lipscomb, Trey",38,90.0,52.0,180,Third Baseman,2024
+408234,"Cabrera, Miguel",24,76.0,52.0,161,Designated Hitter,2021
+657557,"DeJong, Paul",29,81.0,52.0,524,Shortstop,2024
+689200,"Melton, Jacob",31,83.1,52.099999999999994,55,Center Fielder,2025
+665155,"Maton, Nick",29,81.1,52.099999999999994,164,Shortstop,2021
+647351,"Toro, Abraham",29,81.1,52.099999999999994,316,First Baseman,2025
+596115,"Story, Trevor",27,79.1,52.099999999999994,729,Shortstop,2021
+656976,"Smith, Pavin",26,78.1,52.099999999999994,179,Designated Hitter,2025
+642165,"VanMeter, Josh",26,78.2,52.2,222,Second Baseman,2022
+608385,"Winker, Jesse",33,85.2,52.2,285,Left Fielder,2021
+823550,"Song, Sung-Mun",24,76.2,52.2,105,Second Baseman,2026
+621028,"Newman, Kevin",27,79.2,52.2,180,Shortstop,2020
+668901,"Vientos, Mark",27,79.2,52.2,259,First Baseman,2026
+664247,"Garlick, Kyle",30,82.3,52.3,93,Left Fielder,2022
+680977,"Donovan, Brendan",33,85.3,52.3,483,Left Fielder,2024
+656847,"Peters, DJ",38,90.5,52.5,181,Center Fielder,2021
+701398,"Stewart, Sal",27,79.7,52.7,232,First Baseman,2026
+681460,"Baldwin, Brooks",27,79.8,52.8,146,Second Baseman,2024
+802139,"Wetherholt, JJ",26,78.9,52.900000000000006,387,Second Baseman,2026
+621545,"Remillard, Zach",28,81.2,53.2,202,Second Baseman,2023
+664728,"Isbel, Kyle",28,81.3,53.3,148,Center Fielder,2026
+666211,"Trammell, Taylor",26,79.3,53.3,65,Center Fielder,2026
+592626,"Pederson, Joc",31,84.3,53.3,66,Left Fielder,2020
+429664,"Canó, Robinson",24,77.3,53.3,101,Second Baseman,2020
+614173,"Cordero, Franchy",33,86.4,53.400000000000006,60,Right Fielder,2023
+695336,"Saggese, Thomas",25,78.4,53.400000000000006,77,Second Baseman,2024
+663550,"Cabbage, Trey",38,91.4,53.400000000000006,54,Right Fielder,2024
+658668,"Olivares, Edward",38,91.5,53.5,132,Right Fielder,2024
+641796,"Locastro, Tim",26,79.5,53.5,53,Left Fielder,2023
+656448,"Garrett, Stone",36,89.6,53.599999999999994,187,Left Fielder,2023
+668751,"Mitchell, Cal",31,84.6,53.599999999999994,151,Right Fielder,2022
+676701,"Trejo, Alan",31,84.7,53.7,79,Shortstop,2025
+660766,"Yepez, Juan",36,89.8,53.8,146,Left Fielder,2022
+570482,"Urshela, Gio",29,83.0,54.0,397,Third Baseman,2021
+672779,"Marcano, Tucupita",30,84.0,54.0,236,Shortstop,2023
+668845,"Schunk, Aaron",30,84.1,54.099999999999994,141,Second Baseman,2024
+670770,"Friedl, TJ",29,83.1,54.099999999999994,415,Center Fielder,2025
+675961,"Williams, Alika",25,79.1,54.099999999999994,117,Second Baseman,2024
+474568,"Mercer, Jordy",27,81.2,54.2,141,Second Baseman,2021
+592273,"Drury, Brandon",23,77.2,54.2,504,Second Baseman,2023
+621035,"Taylor, Chris",33,87.3,54.3,123,Right Fielder,2025
+695578,"Wood, James",29,83.3,54.3,247,Left Fielder,2024
+543257,"Grossman, Robbie",30,84.5,54.5,74,Designated Hitter,2024
+592348,"Goodrum, Niko",28,82.6,54.599999999999994,185,Shortstop,2020
+453943,"Frazier, Todd",21,75.7,54.7,110,Third Baseman,2020
+600303,"La Stella, Tommy",18,72.7,54.7,195,Second Baseman,2021
+663656,"Tucker, Kyle",30,84.7,54.7,115,Left Fielder,2020
+571448,"Arenado, Nolan",28,82.8,54.8,195,Third Baseman,2026
+542303,"Ozuna, Marcell",20,74.8,54.8,67,Designated Hitter,2020
+663853,"Gonzalez, Romy",23,77.8,54.8,403,First Baseman,2025
+621002,"Robertson, Daniel",28,82.9,54.900000000000006,102,Shortstop,2021
+553993,"Suárez, Eugenio",28,82.9,54.900000000000006,482,Third Baseman,2025
+595751,"Alfaro, Jorge",38,93.0,55.0,65,,2021
+455976,"Markakis, Nick",22,77.0,55.0,100,Right Fielder,2020
+543068,"Cron, C.J.",25,80.2,55.2,361,First Baseman,2021
+570256,"Polanco, Gregory",25,80.3,55.3,267,Right Fielder,2021
+657041,"Thomas, Lane",35,90.3,55.3,185,Center Fielder,2021
+671976,"Peters, Tristan",29,84.3,55.3,174,Center Fielder,2026
+643446,"McNeil, Jeff",22,77.4,55.400000000000006,314,Second Baseman,2026
+621311,"Dahl, David",26,81.4,55.400000000000006,77,Center Fielder,2020
+660757,"Gonzalez, Oscar",39,94.5,55.5,91,Right Fielder,2023
+519317,"Stanton, Giancarlo",27,82.5,55.5,59,Designated Hitter,2021
+461865,"Romine, Andrew",24,79.5,55.5,77,Shortstop,2021
+502481,"Dyson, Jarrod",32,87.6,55.599999999999994,55,Center Fielder,2020
+681481,"Carpenter, Kerry",30,85.6,55.599999999999994,79,Right Fielder,2026
+543305,"Hicks, Aaron",31,86.6,55.599999999999994,63,Center Fielder,2021
+669369,"Johnson, Bryce",27,82.6,55.599999999999994,59,Right Fielder,2024
+656308,"Chavis, Michael",23,78.7,55.7,150,Second Baseman,2021
+666135,"Kirilloff, Alex",19,74.7,55.7,274,First Baseman,2023
+458015,"Votto, Joey",19,74.7,55.7,268,First Baseman,2022
+666181,"Benson, Will",30,85.7,55.7,272,Right Fielder,2024
+595777,"Profar, Jurickson",29,84.7,55.7,298,Left Fielder,2023
+680869,"Gelof, Zack",20,75.8,55.8,118,Second Baseman,2025
+663586,"Riley, Austin",27,83.0,56.0,302,Third Baseman,2024
+694384,"Schanuel, Nolan",18,74.0,56.0,234,First Baseman,2026
+664901,"Mendick, Danny",20,76.0,56.0,133,Shortstop,2022
+686469,"Pasquantino, Vinnie",9,65.0,56.0,260,First Baseman,2026
+518626,"Donaldson, Josh",28,84.1,56.099999999999994,401,Third Baseman,2022
+696285,"Young, Jacob",30,86.2,56.2,531,Center Fielder,2024
+544725,"García, Leury",28,84.2,56.2,365,Second Baseman,2021
+670242,"Wallner, Matt",38,94.5,56.5,94,Right Fielder,2026
+663624,"Mountcastle, Ryan",6,62.5,56.5,211,First Baseman,2025
+592325,"Gamel, Ben",28,84.5,56.5,311,Left Fielder,2021
+592567,"Moran, Colin",19,75.7,56.7,199,First Baseman,2021
+656555,"Hoskins, Rhys",12,68.7,56.7,433,First Baseman,2024
+667452,"Julks, Corey",30,86.7,56.7,129,Left Fielder,2024
+682653,"Bernabel, Warming",25,81.9,56.900000000000006,122,First Baseman,2025
+647304,"Naylor, Josh",22,79.1,57.099999999999994,381,First Baseman,2022
+669699,"Shewmake, Braden",28,85.1,57.099999999999994,108,Shortstop,2026
+545361,"Trout, Mike",27,84.2,57.2,75,Center Fielder,2024
+521692,"Perez, Salvador",13,70.2,57.2,114,,2025
+592885,"Yelich, Christian",22,79.3,57.3,53,Designated Hitter,2025
+669242,"Edman, Tommy",25,82.4,57.400000000000006,137,Shortstop,2024
+701762,"Kurtz, Nick",16,73.6,57.599999999999994,254,First Baseman,2026
+502054,"Pham, Tommy",28,85.6,57.599999999999994,302,Left Fielder,2021
+682818,"Piñango, Yohendrick",24,81.6,57.599999999999994,82,Left Fielder,2026
+543768,"Shaw, Travis",23,80.7,57.7,231,Third Baseman,2021
+641584,"Fraley, Jake",28,85.7,57.7,177,Left Fielder,2021
+641857,"McMahon, Ryan",24,81.8,57.8,236,Second Baseman,2020
+502110,"Martinez, J.D.",28,85.8,57.8,103,Designated Hitter,2021
+572039,"Piscotty, Stephen",25,82.8,57.8,139,Right Fielder,2021
+665742,"Soto, Juan",22,79.9,57.900000000000006,109,Left Fielder,2020
+691016,"Soderstrom, Tyler",21,79.0,58.0,170,First Baseman,2024
+649966,"Urías, Luis",23,81.1,58.099999999999994,89,Third Baseman,2024
+686681,"Massey, Michael",19,77.2,58.2,244,Second Baseman,2022
+624424,"Conforto, Michael",30,88.2,58.2,157,Right Fielder,2020
+663968,"Mangum, Jake",28,86.3,58.3,265,Left Fielder,2025
+451594,"Fowler, Dexter",25,83.4,58.400000000000006,50,Right Fielder,2020
+457705,"McCutchen, Andrew",22,80.5,58.5,340,Left Fielder,2021
+622761,"Mateo, Jorge",26,84.5,58.5,178,Shortstop,2021
+493329,"Gurriel, Yuli",10,68.5,58.5,251,First Baseman,2023
+703607,"Bolte, Henry",33,91.5,58.5,103,Center Fielder,2026
+592444,"Jones, JaCoby",21,79.5,58.5,78,Center Fielder,2021
+621439,"Buxton, Byron",25,83.5,58.5,163,Center Fielder,2026
+621466,"Stewart, DJ",29,87.6,58.599999999999994,68,Right Fielder,2024
+502210,"Reddick, Josh",22,80.6,58.599999999999994,103,Right Fielder,2021
+662139,"Varsho, Daulton",25,83.7,58.7,422,Center Fielder,2024
+543543,"Miller, Brad",13,71.7,58.7,246,First Baseman,2021
+640492,"Azócar, José",28,87.0,59.0,57,Center Fielder,2024
+623993,"Santander, Anthony",25,84.0,59.0,58,Designated Hitter,2025
+687093,"Grissom, Vaughn",18,77.2,59.2,183,Second Baseman,2022
+444482,"Peralta, David",24,83.2,59.2,114,Right Fielder,2024
+608577,"Mazara, Nomar",30,89.2,59.2,107,Right Fielder,2020
+595879,"Báez, Javier",28,87.3,59.3,117,Shortstop,2026
+683083,"Nuñez, Nasim",26,85.3,59.3,392,Second Baseman,2026
+643217,"Benintendi, Andrew",23,82.6,59.599999999999994,206,Left Fielder,2025
+572761,"Carpenter, Matt",13,72.6,59.599999999999994,204,Second Baseman,2021
+656185,"Allen, Greg",24,83.7,59.7,111,Left Fielder,2022
+807712,"Keaschall, Luke",15,74.7,59.7,208,Second Baseman,2025
+665877,"Fermín, José",15,74.8,59.8,83,Second Baseman,2023
+656896,"Rivera, Emmanuel",26,85.8,59.8,210,Third Baseman,2024
+596059,"Odor, Rougned",24,83.8,59.8,113,Second Baseman,2023
+592669,"Renfroe, Hunter",32,91.8,59.8,374,Right Fielder,2023
+596146,"Kepler, Max",26,85.9,59.900000000000006,114,Right Fielder,2020
+668904,"Lewis, Royce",23,82.9,59.900000000000006,152,Third Baseman,2026
+609275,"Mondesi, Adalberto",27,86.9,59.900000000000006,76,Shortstop,2022
+641914,"Neuse, Sheldon",26,85.9,59.900000000000006,322,Third Baseman,2022
+687597,"Beck, Jordan",27,87.0,60.0,417,Left Fielder,2025
+592743,"Simmons, Andrelton",19,79.1,60.099999999999994,80,Shortstop,2022
+666801,"Castro, Rodolfo",29,89.3,60.3,268,Shortstop,2023
+665120,"Walsh, Jared",20,80.3,60.3,466,First Baseman,2021
+702332,"Durbin, Caleb",21,81.4,60.400000000000006,372,Third Baseman,2025
+686797,"Lee, Brooks",22,82.4,60.400000000000006,288,Shortstop,2026
+656305,"Chapman, Matt",26,86.4,60.400000000000006,105,Third Baseman,2020
+642715,"Adames, Willy",27,87.5,60.5,710,Shortstop,2021
+666160,"Moniak, Mickey",22,82.5,60.5,99,Left Fielder,2026
+668723,"Vilade, Ryan",26,86.5,60.5,110,Right Fielder,2026
+474832,"Belt, Brandon",13,73.5,60.5,128,Designated Hitter,2023
+501303,"Adrianza, Ehire",23,83.6,60.599999999999994,123,,2021
+605204,"Davis, J.D.",28,88.7,60.7,116,Third Baseman,2020
+687515,"Thomas, Colby",32,92.8,60.8,75,Right Fielder,2025
+542340,"Villar, Jonathan",24,84.8,60.8,208,Second Baseman,2022
+688363,"Pauley, Graham",21,81.8,60.8,155,Third Baseman,2025
+621563,"Wendle, Joey",18,78.9,60.900000000000006,217,Third Baseman,2020
+644374,"Chang, Yu",20,80.9,60.900000000000006,181,Shortstop,2023
+592192,"Canha, Mark",20,81.0,61.0,430,Left Fielder,2021
+572122,"Seager, Kyle",15,76.1,61.099999999999994,672,Third Baseman,2021
+667670,"Rooker, Brent",25,86.1,61.099999999999994,54,Designated Hitter,2025
+691723,"Mayo, Coby",16,77.1,61.099999999999994,251,First Baseman,2025
+669256,"Solak, Nick",15,76.3,61.3,543,Second Baseman,2021
+669200,"McCoy, Mason",18,79.4,61.400000000000006,88,Shortstop,2024
+700932,"Manzardo, Kyle",9,70.5,61.5,213,Designated Hitter,2025
+682641,"Matos, Luis",29,90.5,61.5,107,Center Fielder,2024
+606299,"Peraza, José",18,79.7,61.7,139,Second Baseman,2021
+687799,"Marlowe, Cade",18,79.8,61.8,80,Left Fielder,2023
+679822,"Foscue, Justin",14,75.9,61.900000000000006,115,Second Baseman,2026
+405395,"Pujols, Albert",5,66.9,61.900000000000006,203,First Baseman,2021
+800050,"DeLauter, Chase",24,85.9,61.900000000000006,110,Right Fielder,2026
+514917,"Hernández, César",12,73.9,61.900000000000006,599,Second Baseman,2021
+621446,"Brinson, Lewis",25,87.0,62.0,220,Left Fielder,2021
+672744,"Canario, Alexander",29,91.0,62.0,198,Left Fielder,2025
+621438,"Taylor, Tyrone",28,90.1,62.099999999999994,90,Center Fielder,2026
+664913,"Brown, Seth",15,77.2,62.2,56,Left Fielder,2025
+545121,"Vargas, Ildemaro",14,76.2,62.2,248,Third Baseman,2024
+595943,"Evans, Phillip",24,86.2,62.2,176,First Baseman,2021
+692585,"Fernández, Yanquiel",35,97.2,62.2,82,Designated Hitter,2025
+671739,"Harris II, Michael",23,85.4,62.400000000000006,193,Center Fielder,2026
+488726,"Brantley, Michael",23,85.4,62.400000000000006,77,Designated Hitter,2022
+673548,"Suzuki, Seiya",27,89.4,62.400000000000006,219,Right Fielder,2024
+669357,"Gorman, Nolan",16,78.4,62.400000000000006,485,Second Baseman,2024
+678246,"Vargas, Miguel",17,79.5,62.5,310,Second Baseman,2023
+670623,"Paredes, Isaac",15,77.6,62.599999999999994,163,Third Baseman,2026
+571788,"Holt, Brock",16,78.7,62.7,275,Third Baseman,2021
+642211,"Williams, Justin",26,88.8,62.8,92,Right Fielder,2021
+622682,"Reyes, Victor",22,84.8,62.8,153,Center Fielder,2020
+687859,"Johnston, Troy",20,82.9,62.900000000000006,208,Right Fielder,2026
+676070,"Amaya, Jacob",18,80.9,62.900000000000006,80,Shortstop,2024
+680779,"Davis, Henry",32,95.0,63.0,124,Right Fielder,2023
+571980,"Naquin, Tyler",30,93.0,63.0,120,Right Fielder,2020
+666126,"Cortes, Carlos",26,89.0,63.0,76,Right Fielder,2026
+593160,"Merrifield, Whit",15,78.3,63.3,885,Second Baseman,2021
+683146,"Baty, Brett",22,85.4,63.400000000000006,256,Third Baseman,2023
+664057,"Stevenson, Andrew",17,80.5,63.5,110,Center Fielder,2021
+670224,"Misner, Kameron",26,89.6,63.599999999999994,131,Center Fielder,2025
+701675,"Church, Nathan",27,90.9,63.900000000000006,154,Left Fielder,2026
+680737,"Helman, Michael",24,87.9,63.900000000000006,94,Center Fielder,2025
+666134,"Jones, Nolan",33,97.0,64.0,59,Right Fielder,2022
+596019,"Lindor, Francisco",12,76.0,64.0,125,Shortstop,2026
+646240,"Devers, Rafael",16,80.1,64.1,317,First Baseman,2026
+666182,"Bichette, Bo",19,83.2,64.2,305,Shortstop,2026
+592178,"Bryant, Kris",23,87.2,64.2,188,Right Fielder,2023
+670156,"Mastrobuoni, Miles",20,84.2,64.2,123,Third Baseman,2024
+641531,"Dozier, Hunter",17,81.2,64.2,133,First Baseman,2020
+594807,"Duvall, Adam",23,87.2,64.2,149,Left Fielder,2020
+670351,"Rojas, Jose",18,82.2,64.2,188,Right Fielder,2021
+676801,"McCormick, Chas",20,84.3,64.3,242,Center Fielder,2022
+681198,"Rumfield, TJ",7,71.3,64.3,218,First Baseman,2026
+678009,"Meadows, Parker",22,86.5,64.5,129,Center Fielder,2025
+677347,"Paris, Kyren",19,83.5,64.5,81,Second Baseman,2024
+571970,"Muncy, Max",13,77.5,64.5,544,First Baseman,2021
+462101,"Andrus, Elvis",17,81.6,64.6,794,Shortstop,2021
+608070,"Ramírez, José",11,75.6,64.6,160,Third Baseman,2020
+669707,"Triolo, Jared",19,83.7,64.7,247,Third Baseman,2023
+519058,"Moustakas, Mike",9,73.7,64.7,109,Second Baseman,2020
+605412,"Panik, Joe",12,76.8,64.8,248,Third Baseman,2021
+642180,"Wade, Tyler",14,78.9,64.9,100,Center Fielder,2025
+669397,"Allen, Nick",20,84.9,64.9,109,Shortstop,2026
+656941,"Schwarber, Kyle",18,82.9,64.9,231,Left Fielder,2021
+669326,"Teodosio, Bryce",22,87.1,65.1,64,Left Fielder,2026
+672284,"Kelenic, Jarred",24,89.2,65.2,339,Left Fielder,2024
+605113,"Ahmed, Nick",13,78.2,65.2,378,Shortstop,2023
+640457,"Meadows, Austin",17,82.3,65.3,68,Left Fielder,2020
+669364,"Edwards, Xavier",9,74.3,65.3,323,Second Baseman,2026
+573262,"Yastrzemski, Mike",18,83.4,65.4,137,Left Fielder,2026
+446334,"Longoria, Evan",10,75.4,65.4,303,Third Baseman,2021
+547004,"Ruiz, Rio",14,79.4,65.4,135,Second Baseman,2021
+665506,"Pache, Cristian",26,91.4,65.4,163,Center Fielder,2024
+457727,"Maybin, Cameron",15,80.6,65.6,58,Right Fielder,2020
+657656,"Laureano, Ramón",22,87.6,65.6,162,Center Fielder,2020
+541645,"García, Avisaíl",24,89.6,65.6,280,Right Fielder,2021
+701350,"Anthony, Roman",19,84.6,65.6,127,Right Fielder,2025
+669288,"Johnson, Daniel",23,88.6,65.6,66,Right Fielder,2021
+696030,"Osuna, Alejandro",19,84.7,65.7,106,Left Fielder,2026
+805367,"Meidroth, Chase",10,75.7,65.7,397,Second Baseman,2026
+666158,"Lux, Gavin",9,75.0,66.0,442,Second Baseman,2024
+622534,"Margot, Manuel",13,79.0,66.0,249,Right Fielder,2024
+593934,"Sanó, Miguel",22,88.0,66.0,415,First Baseman,2021
+594694,"Difo, Wilmer",15,81.0,66.0,209,Second Baseman,2021
+476704,"Lowrie, Jed",8,74.3,66.3,286,Second Baseman,2021
+663604,"Lockridge, Brandon",20,86.3,66.3,81,Left Fielder,2026
+680577,"Keirsey Jr., DaShawn",21,87.4,66.4,81,Center Fielder,2025
+676946,"Batten, Matthew",17,83.4,66.4,116,Third Baseman,2023
+657108,"White, Evan",12,78.4,66.4,117,First Baseman,2021
+630105,"Cronenworth, Jake",9,75.4,66.4,136,Second Baseman,2026
+623520,"Bote, David",13,79.5,66.5,295,Second Baseman,2021
+572191,"Taylor, Michael A.",21,87.5,66.5,273,Center Fielder,2025
+641645,"Guillorme, Luis",13,79.5,66.5,207,Second Baseman,2024
+606993,"Hager, Jake",16,82.5,66.5,109,Second Baseman,2022
+660620,"Araúz, Jonathan",19,85.5,66.5,103,Third Baseman,2023
+542932,"Berti, Jon",5,71.6,66.6,145,Second Baseman,2020
+676356,"DeLuca, Jonny",21,87.6,66.6,52,Center Fielder,2025
+518792,"Heyward, Jason",22,88.7,66.7,116,Right Fielder,2020
+571718,"Goodwin, Brian",18,84.8,66.8,182,Right Fielder,2021
+656541,"Hilliard, Sam",22,88.9,66.9,103,Left Fielder,2020
+452678,"Cabrera, Asdrúbal",14,81.1,67.1,237,Third Baseman,2021
+663457,"Nootbaar, Lars",21,88.2,67.2,97,Right Fielder,2021
+642350,"Siri, Jose",26,93.2,67.2,236,Center Fielder,2022
+544369,"Gregorius, Didi",18,85.2,67.2,223,Shortstop,2020
+695657,"Montgomery, Colson",12,79.2,67.2,292,Shortstop,2026
+607054,"Peterson, Jace",14,81.3,67.3,238,Second Baseman,2021
+453568,"Blackmon, Charlie",19,86.3,67.3,179,Right Fielder,2020
+694374,"Tawa, Tim",13,80.3,67.3,246,Second Baseman,2025
+663647,"Hayes, Ke'Bryan",13,80.4,67.4,267,Third Baseman,2024
+810938,"Williamson, Ben",15,82.7,67.7,271,Second Baseman,2026
+668715,"Steer, Spencer",7,74.7,67.7,444,First Baseman,2025
+503556,"Gonzalez, Marwin",12,79.7,67.7,334,Second Baseman,2021
+622110,"Duffy, Matt",15,82.7,67.7,223,Third Baseman,2023
+543760,"Semien, Marcus",10,77.7,67.7,466,Second Baseman,2026
+691176,"Domínguez, Jasson",24,91.8,67.8,240,Left Fielder,2025
+578428,"Iglesias, Jose",12,79.8,67.8,685,Shortstop,2021
+543105,"Dickerson, Alex",12,79.8,67.8,171,Left Fielder,2021
+621514,"Stewart, Christin",14,81.9,67.9,69,Left Fielder,2020
+593871,"Polanco, Jorge",11,79.0,68.0,506,Second Baseman,2022
+666624,"Morel, Christopher",24,92.1,68.1,132,Left Fielder,2025
+669911,"Toglia, Michael",4,72.1,68.1,394,First Baseman,2025
+643393,"Kemp, Tony",5,73.3,68.3,118,Second Baseman,2020
+683011,"Volpe, Anthony",11,79.3,68.3,170,Shortstop,2026
+694371,"Troy, Tommy",9,77.4,68.4,71,Left Fielder,2026
+666185,"Carlson, Dylan",15,83.4,68.4,193,Left Fielder,2025
+679032,"Rojas, Johan",23,91.4,68.4,292,Center Fielder,2024
+596451,"Quinn, Roman",24,92.5,68.5,96,Center Fielder,2020
+542454,"Santana, Danny",22,90.6,68.6,100,Center Fielder,2021
+641553,"Engel, Adam",15,83.6,68.6,237,Center Fielder,2022
+594838,"Gosselin, Phil",13,81.6,68.6,270,Left Fielder,2021
+671218,"Ramos, Heliot",17,85.8,68.8,504,Left Fielder,2025
+641658,"Hampson, Garrett",8,76.9,68.9,120,Second Baseman,2025
+606132,"Tapia, Raimel",17,85.9,68.9,126,Right Fielder,2023
+669222,"Senzel, Nick",15,84.0,69.0,163,Third Baseman,2024
+669720,"Hays, Austin",21,90.0,69.0,384,Left Fielder,2023
+501571,"Lagares, Juan",19,88.0,69.0,249,Center Fielder,2021
+457759,"Turner, Justin",10,79.0,69.0,497,Third Baseman,2021
+665487,"Tatis Jr., Fernando",23,92.1,69.1,252,Shortstop,2020
+643396,"Kiner-Falefa, Isiah",12,81.1,69.1,723,Shortstop,2022
+571745,"Haniger, Mitch",17,86.2,69.2,284,Right Fielder,2024
+676059,"Westburg, Jordan",11,80.2,69.2,264,Second Baseman,2023
+650490,"Díaz, Yandy",2,71.3,69.3,118,Designated Hitter,2025
+571771,"Hernández, Enrique",14,83.3,69.3,161,Second Baseman,2020
+624415,"Biggio, Cavan",8,77.3,69.3,236,Second Baseman,2024
+649557,"Díaz, Aledmys",16,85.4,69.4,248,Third Baseman,2021
+592859,"Wilkerson, Stevie",12,81.4,69.4,100,Second Baseman,2021
+660644,"Bruján, Vidal",17,86.4,69.4,287,Shortstop,2024
+670231,"Rave, John",16,85.5,69.5,161,Left Fielder,2025
+645277,"Albies, Ozzie",1,70.6,69.6,587,Second Baseman,2025
+680474,"Schuemann, Max",12,81.7,69.7,270,Second Baseman,2025
+808959,"Murakami, Munetaka",5,74.7,69.7,163,First Baseman,2026
+608671,"Jankowski, Travis",16,85.8,69.8,104,Right Fielder,2024
+702176,"Roden, Alan",19,88.8,69.8,111,Left Fielder,2025
+691182,"Amador, Adael",1,70.9,69.9,177,Second Baseman,2025
+664040,"Lowe, Brandon",8,77.9,69.9,552,Second Baseman,2025
+669016,"Marsh, Brandon",16,86.0,70.0,189,Center Fielder,2021
+663697,"India, Jonathan",6,76.1,70.1,437,Second Baseman,2024
+680911,"Miller, Owen",6,76.1,70.1,354,Second Baseman,2023
+622268,"Walton, Donovan",8,78.3,70.3,133,Shortstop,2022
+672478,"Diaz, Jordan",13,83.4,70.4,198,Third Baseman,2023
+702284,"Young, Cole",2,72.4,70.4,421,Second Baseman,2026
+686823,"Brennan, Will",17,87.5,70.5,212,Right Fielder,2024
+519299,"Sogard, Eric",7,77.6,70.6,125,Third Baseman,2020
+663837,"Vierling, Matt",19,89.6,70.6,272,Center Fielder,2022
+605548,"Zimmer, Bradley",18,88.8,70.8,132,Center Fielder,2022
+702616,"Holliday, Jackson",7,77.8,70.8,119,Second Baseman,2026
+814439,"Waldschmidt, Ryan",15,85.8,70.8,102,Center Fielder,2026
+691406,"Caminero, Junior",13,83.8,70.8,300,Third Baseman,2025
+608686,"Mayfield, Jack",9,79.8,70.8,309,Third Baseman,2021
+677942,"Alexander, Blaze",23,93.8,70.8,202,Third Baseman,2026
+690022,"Ritter, Ryan",8,78.8,70.8,293,Shortstop,2025
+691720,"Karros, Kyle",12,82.8,70.8,98,Third Baseman,2025
+592518,"Machado, Manny",13,83.9,70.9,157,Third Baseman,2026
+656248,"Bouchard, Sean",12,82.9,70.9,83,Left Fielder,2022
+803011,"Antonacci, Sam",17,87.9,70.9,150,Left Fielder,2026
+678662,"Tovar, Ezequiel",14,85.0,71.0,668,Shortstop,2024
+666139,"Lowe, Josh",15,86.0,71.0,196,Right Fielder,2025
+694388,"Loperfido, Joey",10,81.0,71.0,80,Left Fielder,2025
+572041,"Pollock, AJ",18,89.1,71.1,345,Left Fielder,2022
+621020,"Swanson, Dansby",7,78.1,71.1,875,Shortstop,2021
+682622,"Marte, Noelvi",16,87.2,71.2,98,Third Baseman,2024
+693049,"Colás, Oscar",22,93.2,71.2,233,Right Fielder,2023
+669450,"Hummel, Cooper",21,92.3,71.3,61,Left Fielder,2022
+607680,"Pillar, Kevin",17,88.3,71.3,135,Left Fielder,2023
+545341,"Grichuk, Randal",15,86.3,71.3,135,Right Fielder,2024
+516770,"Castro, Starlin",13,84.4,71.4,340,Third Baseman,2021
+679845,"Loftin, Nick",12,83.4,71.4,150,Second Baseman,2024
+666971,"Gurriel Jr., Lourdes",13,84.5,71.5,132,Left Fielder,2020
+592696,"Rosario, Eddie",20,91.6,71.6,148,Left Fielder,2020
+663898,"Rodgers, Brendan",7,78.6,71.6,517,Second Baseman,2024
+596103,"Slater, Austin",13,84.7,71.7,140,Center Fielder,2023
+621550,"Wisdom, Patrick",16,87.7,71.7,247,Third Baseman,2023
+457708,"Upton, Justin",10,81.7,71.7,205,Left Fielder,2021
+802415,"Simpson, Chandler",14,85.8,71.8,262,Center Fielder,2025
+670869,"Soto, Livan",13,84.8,71.8,77,Shortstop,2022
+605119,"Anderson, Brian",15,86.9,71.9,218,Third Baseman,2020
+681393,"Norby, Connor",12,83.9,71.9,119,Third Baseman,2024
+663757,"Grisham, Trent",12,83.9,71.9,179,Center Fielder,2026
+518692,"Freeman, Freddie",5,77.0,72.0,966,First Baseman,2023
+656484,"Gray, Tristan",10,82.0,72.0,103,Second Baseman,2025
+658069,"Fuentes, Joshua",8,80.0,72.0,253,Third Baseman,2021
+606992,"Haase, Eric",13,85.1,72.1,54,,2021
+606115,"Arcia, Orlando",11,83.2,72.2,252,Second Baseman,2022
+676694,"Meyers, Jake",6,78.2,72.2,202,Center Fielder,2025
+695238,"Wagner, Will",7,79.3,72.3,102,Second Baseman,2024
+459964,"Joyce, Matt",7,79.5,72.5,79,Right Fielder,2020
+663616,"Larnach, Trevor",13,85.6,72.6,233,Left Fielder,2021
+547180,"Harper, Bryce",3,75.6,72.6,322,First Baseman,2025
+650859,"Rengifo, Luis",4,76.6,72.6,148,Second Baseman,2020
+572008,"Owings, Chris",11,83.7,72.7,80,Second Baseman,2022
+669717,"Wilson, Will",7,79.8,72.8,75,Third Baseman,2025
+543685,"Rendon, Anthony",6,78.8,72.8,238,Third Baseman,2021
+683357,"Caissie, Owen",17,89.9,72.9,145,Right Fielder,2026
+676369,"Velázquez, Nelson",17,90.0,73.0,56,Designated Hitter,2024
+677008,"Kjerstad, Heston",13,86.0,73.0,92,Left Fielder,2025
+605346,"López, Jack",10,83.0,73.0,94,Second Baseman,2024
+660162,"Moncada, Yoán",10,83.0,73.0,266,Third Baseman,2023
+458731,"Gardner, Brett",11,84.0,73.0,112,Left Fielder,2020
+666198,"Kieboom, Carter",8,81.1,73.1,192,Third Baseman,2021
+624585,"Soler, Jorge",12,85.2,73.2,210,Right Fielder,2021
+668804,"Reynolds, Bryan",10,83.4,73.4,331,Left Fielder,2023
+520471,"Galvis, Freddy",3,76.4,73.4,195,Shortstop,2020
+691777,"Muncy, Max",10,83.5,73.5,176,Third Baseman,2025
+663538,"Hoerner, Nico",2,75.5,73.5,824,Second Baseman,2025
+592206,"Castellanos, Nick",8,81.6,73.6,339,Right Fielder,2025
+687637,"Beavers, Dylan",12,85.6,73.6,111,Left Fielder,2025
+663368,"Perkins, Blake",16,89.7,73.7,133,Center Fielder,2025
+696100,"Goodman, Hunter",15,88.7,73.7,92,,2024
+672960,"Okamoto, Kazuma",7,80.7,73.7,171,Third Baseman,2026
+694192,"Chourio, Jackson",11,84.7,73.7,418,Left Fielder,2024
+622666,"Camargo, Johan",17,90.7,73.7,121,Second Baseman,2020
+681297,"Cowser, Colton",17,90.8,73.8,155,Center Fielder,2026
+673962,"Jung, Josh",6,79.8,73.8,105,Third Baseman,2024
+805808,"McGonigle, Kevin",7,80.9,73.9,372,Shortstop,2026
+806068,"Emerson, Colt",4,78.0,74.0,104,Third Baseman,2026
+656669,"Luplow, Jordan",16,90.0,74.0,61,Left Fielder,2023
+687363,"Scott II, Victor",11,85.1,74.1,129,Center Fielder,2024
+695681,"Moore, Christian",4,78.1,74.1,214,Second Baseman,2025
+680574,"McLain, Matt",9,83.1,74.1,641,Second Baseman,2025
+686217,"Frelick, Sal",10,84.2,74.2,185,Right Fielder,2026
+570731,"Schoop, Jonathan",8,82.2,74.2,173,Second Baseman,2020
+642736,"Leyba, Domingo",1,75.4,74.4,90,Second Baseman,2021
+650333,"Arraez, Luis",3,77.5,74.5,389,First Baseman,2024
+673490,"Kim, Ha-Seong",9,83.7,74.7,184,Shortstop,2025
+645302,"Robles, Victor",16,90.8,74.8,169,Center Fielder,2020
+500871,"Escobar, Eduardo",10,84.9,74.9,488,Third Baseman,2022
+669289,"Espinal, Santiago",5,79.9,74.9,547,Second Baseman,2022
+670764,"Walls, Taylor",6,80.9,74.9,338,Shortstop,2026
+607208,"Turner, Trea",7,81.9,74.9,514,Shortstop,2024
+643289,"Dubón, Mauricio",14,88.9,74.9,357,Left Fielder,2024
+608369,"Seager, Corey",5,80.1,75.1,428,Shortstop,2025
+592261,"DeShields, Delino",0,75.2,75.2,110,Center Fielder,2020
+691023,"Walker, Jordan",18,93.3,75.3,304,Right Fielder,2025
+668942,"Rojas, Josh",10,85.3,75.3,371,Third Baseman,2023
+596825,"García, Robel",9,84.3,75.3,136,Third Baseman,2021
+682998,"Carroll, Corbin",7,82.6,75.6,502,Right Fielder,2024
+664023,"Happ, Ian",8,83.6,75.6,219,Left Fielder,2026
+546990,"Alford, Anthony",6,81.6,75.6,117,Left Fielder,2021
+543807,"Springer, George",4,79.9,75.9,118,Center Fielder,2020
+807713,"Shaw, Matt",6,81.9,75.9,269,Third Baseman,2025
+518586,"Culberson, Charlie",11,86.9,75.9,122,Third Baseman,2022
+621450,"Bolt, Skye",11,86.9,75.9,103,Center Fielder,2022
+681082,"Stott, Bryson",5,81.0,76.0,546,Second Baseman,2025
+596748,"Franco, Maikel",7,83.0,76.0,356,Third Baseman,2022
+640461,"Pinder, Chad",10,86.1,76.1,270,Left Fielder,2022
+621005,"Lopes, Tim",10,86.1,76.1,70,Left Fielder,2020
+672580,"Garcia, Maikel",11,87.2,76.2,453,Third Baseman,2024
+641487,"Crawford, J.P.",3,79.2,76.2,205,Shortstop,2026
+669208,"Bliss, Ryan",1,77.2,76.2,102,Second Baseman,2024
+683090,"Lugo, Matthew",15,91.2,76.2,57,Center Fielder,2025
+669477,"Schmitt, Casey",10,86.5,76.5,350,Second Baseman,2025
+593428,"Bogaerts, Xander",2,78.5,76.5,430,Second Baseman,2024
+657061,"Tucker, Cole",3,79.7,76.7,140,Shortstop,2021
+673451,"Akiyama, Shogo",4,80.7,76.7,133,Left Fielder,2020
+687263,"Neto, Zach",9,85.8,76.8,634,Shortstop,2025
+542255,"Inciarte, Ender",11,87.8,76.8,98,Center Fielder,2020
+677551,"Franco, Wander",5,82.0,77.0,337,Shortstop,2022
+641432,"Calhoun, Willie",5,82.0,77.0,115,Left Fielder,2021
+660670,"Acuña Jr., Ronald",13,90.1,77.1,143,Right Fielder,2024
+687231,"Hernaiz, Darell",2,79.3,77.3,139,Third Baseman,2024
+665923,"Ruiz, Esteury",3,80.4,77.4,65,Left Fielder,2026
+543281,"Harrison, Josh",2,79.5,77.5,134,Second Baseman,2023
+665161,"Peña, Jeremy",3,80.5,77.5,680,Shortstop,2024
+664068,"Kingery, Scott",4,81.6,77.6,134,Second Baseman,2020
+608324,"Bregman, Alex",3,80.6,77.6,169,Third Baseman,2026
+456715,"Cain, Lorenzo",6,83.6,77.6,187,Center Fielder,2021
+516416,"Segura, Jean",9,86.8,77.8,325,Third Baseman,2023
+663611,"Madrigal, Nick",1,78.9,77.9,278,Second Baseman,2022
+642456,"Barrera, Luis",13,90.9,77.9,85,Right Fielder,2022
+808975,"Kim, Hyeseong",6,83.9,77.9,164,Shortstop,2026
+656371,"Díaz, Isan",1,79.0,78.0,278,Second Baseman,2021
+668930,"Turang, Brice",2,80.0,78.0,645,Second Baseman,2024
+606466,"Marte, Ketel",4,82.0,78.0,416,Second Baseman,2026
+677950,"Thomas, Alek",5,83.1,78.1,438,Center Fielder,2025
+701358,"Smith, Cam",11,89.2,78.2,253,Right Fielder,2026
+807799,"Yoshida, Masataka",7,85.3,78.3,278,Left Fielder,2023
+605490,"Starling, Bubba",11,89.4,78.4,60,Center Fielder,2020
+664702,"Straw, Myles",7,85.4,78.4,513,Center Fielder,2022
+677588,"Tena, José",8,86.5,78.5,131,Third Baseman,2025
+700246,"Williams, Carson",7,85.7,78.7,162,Shortstop,2025
+672356,"Arias, Gabriel",13,91.7,78.7,334,Shortstop,2023
+444876,"Escobar, Alcides",3,81.8,78.8,343,Shortstop,2021
+682668,"Acuña, Luisangel",2,80.8,78.8,259,Second Baseman,2025
+701305,"Dezenzo, Zach",9,87.9,78.9,75,Left Fielder,2025
+677587,"Rocchio, Brayan",6,84.9,78.9,77,Shortstop,2023
+805249,"Kemp, Otto",4,82.9,78.9,159,Third Baseman,2025
+665833,"Cruz, Oneil",15,93.9,78.9,366,Shortstop,2022
+594809,"Eaton, Adam",12,91.0,79.0,195,Right Fielder,2021
+621493,"Ward, Taylor",3,82.0,79.0,186,Left Fielder,2026
+686555,"Collins, Isaac",6,85.0,79.0,256,Left Fielder,2025
+702222,"Crawford, Justin",2,81.1,79.1,194,Center Fielder,2026
+682729,"Clase, Jonatan",8,87.1,79.1,80,Left Fielder,2025
+546991,"Almora Jr., Albert",3,82.2,79.2,169,Right Fielder,2022
+571976,"Myers, Wil",5,84.2,79.2,197,Right Fielder,2022
+671221,"Waters, Drew",8,87.3,79.3,183,Left Fielder,2025
+621453,"Duggar, Steven",8,87.5,79.5,59,Center Fielder,2022
+656582,"Joe, Connor",9,88.5,79.5,126,Left Fielder,2021
+608703,"Reynolds, Matt",4,83.7,79.7,341,Second Baseman,2022
+666150,"Fletcher, Dominic",8,87.8,79.8,101,Center Fielder,2023
+643418,"Long Jr., Shed",4,84.0,80.0,102,Second Baseman,2020
+671732,"Butler, Lawrence",4,84.1,80.1,144,Right Fielder,2026
+681987,"Eaton, Nate",18,98.1,80.1,113,Third Baseman,2022
+675656,"Smith, Kevin",4,84.1,80.1,218,Shortstop,2023
+678489,"Barrosa, Jorge",1,81.2,80.2,56,Center Fielder,2025
+460086,"Gordon, Alex",4,84.2,80.2,110,Left Fielder,2020
+687401,"Ortiz, Joey",3,83.4,80.4,272,Shortstop,2026
+677951,"Witt Jr., Bobby",7,87.6,80.6,827,Shortstop,2025
+805999,"Ewing, A.J.",9,90.3,81.3,94,Center Fielder,2026
+695506,"Caglianone, Jac",14,95.3,81.3,138,Right Fielder,2025
+671289,"Freeman, Tyler",2,83.4,81.4,80,Third Baseman,2022
+672695,"Perdomo, Geraldo",2,83.6,81.6,507,Shortstop,2026
+570481,"González, Erik",2,83.9,81.9,266,Third Baseman,2021
+516782,"Marte, Starling",6,88.2,82.2,393,Center Fielder,2021
+686527,"Canzone, Dominic",8,90.2,82.2,132,Right Fielder,2024
+686611,"Crews, Dylan",3,85.3,82.3,90,Right Fielder,2026
+804606,"Griffin, Konnor",6,88.3,82.3,277,Shortstop,2026
+682177,"Schneemann, Daniel",10,92.4,82.4,200,Shortstop,2024
+695490,"Arroyo, Edwin",2,84.9,82.9,78,Second Baseman,2026
+664789,"Tom, Ka'ai",1,84.2,83.2,99,Left Fielder,2021
+805779,"Wilson, Jacob",5,88.4,83.4,211,Shortstop,2026
+686668,"Doyle, Brenton",9,92.7,83.7,106,Center Fielder,2026
+666165,"Sabol, Blake",2,86.1,84.1,92,,2023
+621043,"Correa, Carlos",4,88.1,84.1,611,Shortstop,2022
+669003,"Mitchell, Garrett",5,89.2,84.2,61,Center Fielder,2023
+678225,"Bae, Ji Hwan",3,87.2,84.2,88,Center Fielder,2024
+640447,"Ervin, Phillip",6,90.2,84.2,56,Right Fielder,2020
+641786,"Lewis, Kyle",1,85.3,84.3,126,Center Fielder,2021
+624503,"Gordon, Nick",1,85.4,84.4,192,Left Fielder,2024
+686475,"Tolbert, Tyler",2,86.8,84.8,63,Center Fielder,2025
+683002,"Henderson, Gunnar",2,87.2,85.2,348,Shortstop,2026
+672016,"Clarke, Denzel",1,86.4,85.4,171,Center Fielder,2025
+621006,"Martin Jr., Richie",1,86.5,85.5,169,Shortstop,2021
+664059,"Haggerty, Sam",0,85.6,85.6,87,Left Fielder,2021
+682657,"Martínez, Angel",1,86.7,85.7,71,Center Fielder,2024
+602074,"Daza, Yonathan",2,88.0,86.0,230,Center Fielder,2021
+701538,"Merrill, Jackson",3,90.5,87.5,147,Center Fielder,2026
+571740,"Hamilton, Billy",0,88.9,88.9,106,Center Fielder,2021
+694728,"Matthews, Brice",0,89.4,89.4,179,Center Fielder,2026
+669004,"Melendez, MJ",1,91.5,90.5,317,Left Fielder,2024
+691026,"Winn, Masyn",0,90.7,90.7,617,Shortstop,2025
+701807,"Benge, Carson",3,94.5,91.5,231,Right Fielder,2026
+690984,"Halpin, Petey",0,95.3,95.3,51,Center Fielder,2026

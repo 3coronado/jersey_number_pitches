@@ -1,10 +1,11 @@
 from pybaseball import statcast, cache
 import pandas as pd
-cache.enable()
+import io
 import requests
 from tqdm import tqdm
 from datetime import datetime
 import os
+cache.enable()
 
 # -----------------------------
 # Settings
@@ -169,3 +170,83 @@ def lookup_pitcher(name):
 
 print("\nExample:")
 lookup_pitcher("Holton")
+
+# -----------------------------
+# Step 6: Arm strength leaderboard
+# Closest average arm strength to jersey number (2020–present)
+# -----------------------------
+
+ARM_STRENGTH_START = 2020
+
+print("\n\nBuilding arm strength leaderboard...")
+
+arm_rows = []
+
+for year in range(ARM_STRENGTH_START, END_YEAR + 1):
+    # min=q uses Statcast's own position-specific qualifiers:
+    # 1B top 1% / 100 throws, 2B/SS/3B top 5% / 75 throws, OF top 10% / 50 throws
+    url = (
+        "https://baseballsavant.mlb.com/leaderboard/arm-strength"
+        f"?type=player&year={year}&position=&min=q&csv=true"
+    )
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        df_arm = pd.read_csv(io.StringIO(resp.text))
+
+        if df_arm.empty or "arm_overall" not in df_arm.columns:
+            continue
+
+        df_arm = df_arm.dropna(subset=["arm_overall"])
+        df_arm["season"] = year
+
+        year_roster = rosters[rosters["season"] == year].set_index("pitcher")
+
+        df_arm = df_arm.join(
+            year_roster[["jersey_number", "player_name"]],
+            on="player_id",
+        )
+        df_arm = df_arm.dropna(subset=["jersey_number"])
+        df_arm["jersey_number"] = df_arm["jersey_number"].astype(int)
+        df_arm["diff"] = (df_arm["arm_overall"] - df_arm["jersey_number"]).abs()
+
+        arm_rows.append(
+            df_arm[[
+                "player_id", "fielder_name", "jersey_number",
+                "arm_overall", "diff", "total_throws",
+                "primary_position_name", "season",
+            ]]
+        )
+
+        print(f"  {year}: {len(df_arm):,} fielders")
+
+    except Exception as e:
+        print(f"  {year}: failed ({e})")
+
+arm_df = pd.concat(arm_rows, ignore_index=True)
+
+# Best-matching season per player (minimum diff)
+arm_leaderboard = (
+    arm_df.sort_values("diff")
+    .drop_duplicates(subset=["player_id"], keep="first")
+    .sort_values("diff")
+    .reset_index(drop=True)
+)
+arm_leaderboard.index += 1
+
+print("\nArm Strength Leaderboard — Top 50 (closest avg arm strength to jersey number)\n")
+print(
+    arm_leaderboard.head(50)[
+        ["fielder_name", "jersey_number", "arm_overall", "diff",
+         "total_throws", "primary_position_name", "season"]
+    ].to_string()
+)
+
+arm_leaderboard.to_csv("arm_strength_leaderboard.csv", index=False)
+
+
+def lookup_fielder(name):
+    result = arm_leaderboard[
+        arm_leaderboard["fielder_name"].str.contains(name, case=False, na=False)
+    ]
+    print(result.to_string() if len(result) else "No fielder found.")
