@@ -1,5 +1,4 @@
 statcast_data/
-matching_speed_leaderboard.csv
 __pycache__/
 *.pyc
 .venv/
