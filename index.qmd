@@ -12,10 +12,7 @@ library(mlbplotR)
 
 df <- read_csv("matching_speed_leaderboard.csv", show_col_types = FALSE) |>
   slice_head(n = 50) |>
-  mutate(
-    rank = row_number(),
-    hard_hit_pct = matching_pitches
-  )
+  mutate(rank = row_number())
 ```
 
 Which pitcher has thrown the most career pitches at **exactly their jersey number's mph** (rounded to nearest integer)?
@@ -26,8 +23,6 @@ Covers the full pitch tracking era — **2008–present** (PITCHf/x + Statcast).
 #| echo: false
 
 df |>
-  select(rank, team_abbr = team, player_name, jersey_number, matching_pitches) |>
-  mutate(team_abbr = NA_character_) |>   # placeholder until team col is in CSV
   select(rank, player_name, jersey_number, matching_pitches) |>
   gt() |>
   fmt_integer(columns = matching_pitches) |>
