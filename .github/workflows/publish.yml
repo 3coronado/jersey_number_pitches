@@ -9,10 +9,18 @@ on:
       - "_quarto.yml"
       - "assets/**"
 
-jobs:
-  publish:
-    runs-on: ubuntu-latest
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -21,25 +29,27 @@ jobs:
           r-version: "4.4"
           use-public-rspm: true
 
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            tidyverse
-            gt
-            gtExtras
-            remotes
-          extra-packages: local::.
-
-      - name: Install mlbplotR
-        run: Rscript -e 'remotes::install_github("camdenk/mlbplotR")'
+      - name: Install R packages
+        shell: Rscript {0}
+        run: |
+          install.packages(c("tidyverse", "gt", "gtExtras", "remotes"))
+          remotes::install_github("camdenk/mlbplotR")
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site
         run: quarto render
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          path: docs/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
