@@ -28,8 +28,8 @@ jobs:
       - name: Install R packages
         shell: Rscript {0}
         run: |
-          install.packages(c("tidyverse", "gt", "gtExtras", "remotes"))
-          remotes::install_github("camdenk/mlbplotR")
+          install.packages("pak", repos = "https://r-lib.github.io/p/pak/stable/")
+          pak::pak(c("tidyverse", "gt", "gtExtras", "camdenk/mlbplotR"))
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
