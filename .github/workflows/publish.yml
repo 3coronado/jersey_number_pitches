@@ -3,11 +3,7 @@ name: Render and publish
 on:
   push:
     branches: [main]
-    paths:
-      - "**.qmd"
-      - "**.csv"
-      - "_quarto.yml"
-      - "assets/**"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -39,6 +35,9 @@ jobs:
 
       - name: Render site
         run: quarto render
+
+      - name: Add .nojekyll
+        run: touch docs/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
