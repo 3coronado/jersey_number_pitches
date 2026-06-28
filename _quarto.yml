@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jersey Number Pitches"
+  favicon: "assets/favicon.ico"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Pitchers
+      - href: arm-strength.qmd
+        text: Arm Strength
+  page-footer:
+    center: "Data: MLB Stats API & Baseball Savant · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: flatly
+    css: assets/styles.css
+    toc: false
+    page-layout: full

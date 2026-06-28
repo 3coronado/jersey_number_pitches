@@ -2,3 +2,6 @@ statcast_data/
 __pycache__/
 *.pyc
 .venv/
+docs/
+.quarto/
+*_files/

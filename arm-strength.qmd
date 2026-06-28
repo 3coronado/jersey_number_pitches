@@ -1,0 +1,76 @@
+---
+title: "Arm Strength Leaderboard"
+description: "Which fielder's average arm strength is closest to their jersey number?"
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(mlbplotR)
+
+df <- read_csv("arm_strength_leaderboard.csv", show_col_types = FALSE) |>
+  slice_head(n = 50) |>
+  mutate(rank = row_number())
+```
+
+Which fielder's average arm strength is **closest to their jersey number**?
+
+Covers **2020–present** (the full Statcast arm strength tracking era). Uses Statcast's qualified arm strength metric, which filters to a player's strongest throws by position to exclude non-competitive lobs:
+
+- **1B** — average of top 1% of throws, minimum 100 throws
+- **2B / SS / 3B** — average of top 5% of throws, minimum 75 throws
+- **OF** — average of top 10% of throws, minimum 50 throws
+
+Each player's best-matching season is shown.
+
+```{r}
+#| echo: false
+
+df |>
+  select(rank, fielder_name, jersey_number, arm_overall, diff,
+         primary_position_name, season) |>
+  gt() |>
+  fmt_number(columns = c(arm_overall, diff), decimals = 1) |>
+  gt_color_rows(
+    columns = diff,
+    palette = c("#FF1493", "#AAAAAA", "#4169E1"),
+    domain  = c(0, max(df$diff))
+  ) |>
+  tab_style(
+    style     = cell_text(style = "italic"),
+    locations = cells_body(columns = rank)
+  ) |>
+  tab_style(
+    style     = cell_text(weight = "bold", style = "italic"),
+    locations = cells_body(columns = diff)
+  ) |>
+  cols_label(
+    rank                  = "",
+    fielder_name          = "Fielder",
+    jersey_number         = "Jersey #",
+    arm_overall           = "Arm Strength",
+    diff                  = md("*Diff*"),
+    primary_position_name = "Position",
+    season                = "Season"
+  ) |>
+  tab_header(title = md("**Arm Strength Leaderboard**")) |>
+  tab_source_note(
+    source_note = md("Data: Baseball Savant (Statcast) · Updated June 2026")
+  ) |>
+  tab_options(
+    table.background.color            = "white",
+    table.border.top.style            = "hidden",
+    table.border.bottom.style         = "hidden",
+    column_labels.border.top.style    = "solid",
+    column_labels.border.bottom.style = "solid",
+    data_row.padding                  = px(4),
+    source_notes.font.size            = 10,
+    heading.align                     = "center",
+    heading.title.font.size           = 18,
+    heading.title.font.weight         = "bold"
+  )
+```
+
+Full data: [arm_strength_leaderboard.csv](arm_strength_leaderboard.csv)
